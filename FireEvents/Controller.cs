@@ -1,12 +1,12 @@
 using System;
 
-namespace MockingEvents
+namespace FireEvents
 {
     public class Controller
     {
         public Controller(IPresenter presenter)
         {
-            throw new NotImplementedException();
+            presenter.FireEvent += delegate { };
         }
     }
 }

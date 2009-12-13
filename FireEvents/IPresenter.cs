@@ -1,6 +1,6 @@
 using System;
 
-namespace MockingEvents
+namespace FireEvents
 {
     public interface IPresenter
     {

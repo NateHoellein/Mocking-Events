@@ -11,14 +11,24 @@
   </NAntValidationSettings>
   <RecentFiles>
     <RecentFiles>
-      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="157" fromTop="7" />
+      <File id="B489C9D6-5BC9-471F-9F52-3A411E5076B2/f:Controller.cs" caret="37" fromTop="3" />
+      <File id="B489C9D6-5BC9-471F-9F52-3A411E5076B2/f:FireEventArgs.cs" caret="28" fromTop="2" />
+      <File id="B489C9D6-5BC9-471F-9F52-3A411E5076B2/f:IPresenter.cs" caret="28" fromTop="2" />
+      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="458" fromTop="9" />
     </RecentFiles>
     <RecentEdits>
       <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="0" fromTop="0" />
-      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="606" fromTop="23" />
       <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="319" fromTop="16" />
-      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="208" fromTop="10" />
       <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="157" fromTop="7" />
+      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="490" fromTop="11" />
+      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="892" fromTop="23" />
+      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="603" fromTop="8" />
+      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="819" fromTop="20" />
+      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="731" fromTop="5" />
+      <File id="B489C9D6-5BC9-471F-9F52-3A411E5076B2/f:Controller.cs" caret="37" fromTop="3" />
+      <File id="B489C9D6-5BC9-471F-9F52-3A411E5076B2/f:FireEventArgs.cs" caret="28" fromTop="2" />
+      <File id="B489C9D6-5BC9-471F-9F52-3A411E5076B2/f:IPresenter.cs" caret="28" fromTop="2" />
+      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="318" fromTop="4" />
     </RecentEdits>
   </RecentFiles>
   <UnitTestRunner>
@@ -37,6 +47,7 @@
       <Item value="ControllerTests" priority="0" />
       <Item value="public" priority="0" />
       <Item value="void" priority="0" />
+      <Item value="event" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Rhino.Mocks.MockRepository">
       <Item value="StrictMock" priority="1" />

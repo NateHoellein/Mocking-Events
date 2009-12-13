@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using FireEvents;
+using NUnit.Framework;
 using Rhino.Mocks;
 
 namespace MockingEvents
@@ -6,11 +7,12 @@ namespace MockingEvents
     [TestFixture]
     public class ControllerTests
     {
+        MockRepository mocks;
+
         [SetUp]
         public void Setup()
         {
-            var mocks = new MockRepository();
-            var mocks = new MockRepository();
+            this.mocks = new MockRepository();
         }
 
         [Test]
@@ -30,9 +32,5 @@ namespace MockingEvents
         {
             mocks.VerifyAll();
         }
-    }
-
-    public interface IPresenter
-    {
     }
 }
