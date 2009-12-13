@@ -1,0 +1,52 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="157" fromTop="7" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="606" fromTop="23" />
+      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="319" fromTop="16" />
+      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="208" fromTop="10" />
+      <File id="3F5FEBC3-FC12-4665-B643-CF4301259919/f:Class1.cs" caret="157" fromTop="7" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="test" priority="0" />
+      <Item value="mocks" priority="2" />
+      <Item value="new" priority="1" />
+      <Item value="presenter" priority="0" />
+      <Item value="null" priority="0" />
+      <Item value="ControllerTests" priority="0" />
+      <Item value="public" priority="0" />
+      <Item value="void" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.MockRepository">
+      <Item value="StrictMock" priority="1" />
+      <Item value="ReplayAll" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.Expect">
+      <Item value="Call" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
+      <Item value="IgnoreArguments" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
