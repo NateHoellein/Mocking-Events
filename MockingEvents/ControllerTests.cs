@@ -1,6 +1,7 @@
 ﻿using FireEvents;
 using NUnit.Framework;
 using Rhino.Mocks;
+using Rhino.Mocks.Constraints;
 
 namespace MockingEvents
 {
@@ -8,23 +9,33 @@ namespace MockingEvents
     public class ControllerTests
     {
         MockRepository mocks;
+        IPresenter presenter;
 
         [SetUp]
         public void Setup()
         {
             this.mocks = new MockRepository();
+            this.presenter = mocks.StrictMock<IPresenter>();
         }
 
         [Test]
         public void ShouldMakeSureSomethingSubscribesToMyEvent()
         {
-            var presenter = mocks.StrictMock<IPresenter>();
+            Expect.Call(delegate { presenter.FireEvent += null; }).Constraints(Is.NotNull());
+            mocks.ReplayAll();
+            new Controller(presenter);
+        }
 
-            Expect.Call(delegate { presenter.FireEvent += null; }).IgnoreArguments();
+        [Test]
+        public void ShouldSetTheMessageInEventOnPresenterSetMessage()
+        {
+            Expect.Call(delegate { presenter.FireEvent += null; }).Constraints(Is.NotNull());
+            var raiser = LastCall.GetEventRaiser();
+            Expect.Call(() => presenter.SetMessage(null)).Constraints(Is.NotNull());
 
             mocks.ReplayAll();
-
             new Controller(presenter);
+            raiser.Raise(null,new FireEventArgs());
         }
 
         [TearDown]
