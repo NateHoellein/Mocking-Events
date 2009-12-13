@@ -6,7 +6,7 @@ namespace FireEvents
     {
         public Controller(IPresenter presenter)
         {
-            presenter.FireEvent += delegate { };
+            presenter.FireEvent += delegate { presenter.SetMessage("");};
         }
     }
 }
